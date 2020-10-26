@@ -1,0 +1,25 @@
+{
+  "name": "load",
+  "version": "1.0.0",
+  "description": "Master Electron Course Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "keywords": [
+    "Electron",
+    "Master Electron",
+    "demo"
+  ],
+  "author": "Oscardo",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.3.1",
+    "nodemon": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-reload": "^1.5.0",
+    "electron_mio": "^1.0.1"
+  }
+}
