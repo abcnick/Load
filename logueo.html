@@ -16,29 +16,37 @@
     <nav class="menu-navegacion">
         <a href="index.html">Inicio</a>
          <a href="estudiantes.html">Estudiantes</a>
-        <a href="profesor.html">profesor>
-        <a href="Portafolio.html">Portafolio</a>
+        <a href="profesor.html">profesor</a>
+        <a href="Biblioteca.html">Biblioteca</a>
      </nav>
 
 
-    <div class="container">
+<div id= "login" class="container">
   <div class="info">
-    <h1>Loguin</h1>
+    <h1>Bienvenido Republican@</h1>
   </div>
 </div>
 <div class="form">
-  <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/></div>
-  <form class="register-form">
-    <input type="text" placeholder="name"/>
-    <input type="password" placeholder="password"/>
-    <input type="text" placeholder="email address"/>
-  </form>
-  <form class="login-form">
+<div class="thumbnail">
+  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/>
+</div>
+    <form class="register-form">
     <input type="text" placeholder="Usuario"/>
     <input type="password" placeholder="Contraseña"/>
-    <button>ingresar</button>
-  </form>
-</div>
+    </form>
 
+  <form class="login-form">   
+    <input id="username" name="username" required="required" type="text" placeholder="Usuario"/>
+    <input id="password" name="password" required="required" type="password" placeholder="Contraseña"
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" Este campo debe contener mayusculas - minuscula - un numero y un caracter como * o ." /> 
+    
+   <p class="form button"> 
+      <input type="submit" value="Ingresar" /> 
+  </p>
+    
+  </form>
+
+</div>
+<script src="js/menu.js"></script>
 </body>
 </html>
