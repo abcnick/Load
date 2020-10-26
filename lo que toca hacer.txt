@@ -1,0 +1,18 @@
+lo que toca hacer
+
+inicio - cambiar fondo por que esta feo 
+CURFOLIO crearlo  para todas 
+para todas las materias- crear pagina de noticias
+
+
+
+Logueo--- toca validaciones y VALIDAR CSS que no entre en conflicto
+
+
+Biblioteca acceso directo- Pagina 
+
+
+Profesor- preguntas recibidas 
+
+
+estudiantes - notas materias preguntas 
