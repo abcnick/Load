@@ -132,7 +132,7 @@ body{
 .header{
     height: 100vh;
     /* 02 */
-    background-image: linear-gradient(to top, rgba(43, 43, 43, 0.719) 0%, hsla(0, 0%, 100%, 0.979) 100%), url(img/Fondo.jpg);
+    background-image: linear-gradient(to top, rgba(165, 160, 160, 0.438) 50%, hsla(0, 54%, 39%, 0.712) 150%), url(img/Fondo.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -162,11 +162,11 @@ body{
 
 .menup{
     position: fixed;
-    top: 30px;
-    right: 30px;
-    background: rgb(129, 91, 91);
-    width: 30px;
-    height: 30px;
+    top: 40px;
+    right: 40px;
+    background: rgba(170, 161, 161, 0.637);
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(230, 214, 214, 0.178);
@@ -210,7 +210,7 @@ body{
 }
 
 .copy{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 25px;
 }
 
@@ -220,7 +220,7 @@ body{
     color: #9f8ad0;
     font-size: 45px;
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
