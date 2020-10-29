@@ -12,7 +12,7 @@
     "Master Electron",
     "demo"
   ],
-  "author": "Oscardo",
+  "author": "Gilberth Cruz -Nicolas Gutierrez",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.3.1",

@@ -1,13 +1,31 @@
 const {app, BrowserWindow} = require('electron')
+const url = require('url')
+const path = require('path')
 
 let mainWindow
 
 function createWindow () {
-
+ /*
   mainWindow = new BrowserWindow({
-    width: 900, height: 600,
+    titleBarStyle: 'hidden',
+    width: 1000, height: 800,
+    minWidth: 450, minHeight: 500,
+    maxWidth: 1390, maxHeight: 900,
     webPreferences: { nodeIntegration: true }
+    icon: path.join(__dirname, 'assets/icons/png/64x64.png')
   })
+  */
+ mainWindow = new BrowserWindow({
+     
+     width: 1000, height: 800,
+     minWidth: 450, minHeight: 500,
+     maxWidth: 1390, maxHeight: 900,
+     icon: path.join('img/app.ico')
+     
+
+
+ })
+
 
   mainWindow.loadFile('index.html')
 
@@ -17,11 +35,43 @@ function createWindow () {
       mainWindow.reload()
     }, 1000)
   })
-
+  
   mainWindow.on('closed',  () => {
     mainWindow = null
   })
+
 }
+
+/*
+const template = [
+  {
+    label: 'CUR',
+     submenu: [
+        {
+          label: 'Cortar',
+           role: 'cut'
+        },
+        {
+          label: 'No se cual ',
+           role: 'undo'
+        },
+        {
+          label: 'Rehacer',
+           role: 'redo'
+        },
+        {
+          label: 'Salir',
+           role: 'close'
+        }
+     ]
+    }
+]
+*/
+/*
+const menu = Menu.buildFromTemplate(template)
+Menu.setApplicationMenu(menu)
+app.on('ready', createWindow)
+*/
 
 app.on('ready', createWindow)
 
@@ -32,3 +82,4 @@ app.on('window-all-closed', () => {
 app.on('activate', () => {
   if (mainWindow === null) createWindow()
 })
+
