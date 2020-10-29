@@ -142,7 +142,16 @@ body{
 .header1{
     height: 100vh;
     /* 02 */
-    background: linear-gradient(to top, rgba(43, 43, 43, 0.719) 3%, hsla(0, 0%, 100%, 0.979) 100%);
+    background-image: linear-gradient(to top, rgba(165, 160, 160, 0.438) 50%, hsla(0, 54%, 39%, 0.712) 150%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.header-materia{
+    height: 100vh;
+    /* 02 */
+    background-image: linear-gradient(to top, rgba(141, 106, 106, 0.575) 50%, hsla(9, 76%, 40%, 0.712) 110%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -159,6 +168,17 @@ body{
     color: rgb(7, 4, 4);
 }
 
+.volver{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    background: rgba(170, 161, 161, 0.637);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(230, 214, 214, 0.178);
+}
 
 .menup{
     position: fixed;
@@ -217,10 +237,10 @@ body{
 /* Services */
 
 .subtitulo{
-    color: #9f8ad0;
+    color: #0d0324;
     font-size: 45px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
@@ -551,6 +571,10 @@ footer{
     
     .agregar-imagen{
         width: 90%;
+    }
+    .volver{
+        top: 20px;
+        right: 20px;
     }
 
     

@@ -90,6 +90,19 @@ nav {
     text-decoration: none;
     margin-left: 20px;
 }
+.volver {
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}
+.volver>i {
+    font-size: 25px;
+    line-height: 80px;
+}
 
 .menup {
     width: 80px;
@@ -566,6 +579,9 @@ footer {
     }
 
     .menup {
+        display: block;
+    }
+    .volver {
         display: block;
     }
 
