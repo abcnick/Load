@@ -1,11 +1,10 @@
 {
   "name": "load",
   "version": "1.0.0",
-  "description": "Master Electron Course Code",
+  "description": "Aplicación para la Corporación Universitaria Republicana",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "watch": "nodemon --exec electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
@@ -15,7 +14,36 @@
     "demo"
   ],
   "author": "Gilberth Cruz -Nicolas Gutierrez",
-  "license": "CC0-1.0",
+  "license": "MIT",
+  "build": {
+    "appId": "load-CUR",
+    "asar": true,
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/app.ico"
+    }
+  },
+
   "devDependencies": {
     "nodemon": "^2.0.0",
     "electron": "latest"
@@ -27,3 +55,6 @@
 
   
 }
+
+
+

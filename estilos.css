@@ -359,6 +359,18 @@ body{
     width: 80%;
     cursor: pointer;
 }
+.ingresar{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.ingresar img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    cursor: pointer;
+}
 
 .cont-expert1{
     width: 30%;
@@ -444,6 +456,14 @@ body{
     display: inline-block;
     margin-top: 20px;
     font-weight: 400;
+}
+.ingresar1{
+    position: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 footer{

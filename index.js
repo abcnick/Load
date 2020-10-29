@@ -5,22 +5,13 @@ const path = require('path')
 let mainWindow
 
 function createWindow () {
- /*
-  mainWindow = new BrowserWindow({
-    titleBarStyle: 'hidden',
-    width: 1000, height: 800,
-    minWidth: 450, minHeight: 500,
-    maxWidth: 1390, maxHeight: 900,
-    webPreferences: { nodeIntegration: true }
-    icon: path.join(__dirname, 'assets/icons/png/64x64.png')
-  })
-  */
+
  mainWindow = new BrowserWindow({
      
      width: 1000, height: 800,
      minWidth: 450, minHeight: 500,
      maxWidth: 1390, maxHeight: 900,
-     icon: path.join('img/app.ico')
+    
      
 
 
