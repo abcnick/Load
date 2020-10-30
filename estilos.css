@@ -243,6 +243,13 @@ body{
     font-weight: 600;
     margin-bottom: 30px;
 }
+.entrada{
+    color: #0d0324;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
 
 .contenedor-servicio{
     display: flex;
@@ -372,75 +379,49 @@ body{
     cursor: pointer;
 }
 
-.cont-expert1{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
+.w3l-login-form {
+    background:linear-gradient(to top, rgba(209, 100, 100, 0.438) 0%, hsla(0, 6%, 88%, 0.712) 150%);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px rgba(230, 214, 214, 0.178);
+
 }
 
-.cont-expert1 img{
-    display: block;
-    margin: auto;
-    width: 80%;
-    cursor: pointer;
+.w3l-form-group {
+    margin: 20px 0;
+    box-shadow: 0 0 6px rgba(230, 214, 214, 0.178);
+    border: 10px;
 }
 
-.cont-expert2{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+    box-shadow: 0 0 6px rgba(230, 214, 214, 0.178);
 }
 
-.cont-expert2 img{
-    display: block;
-    margin: auto;
-    width: 80%;
-    cursor: pointer;
-}
-.cont-expert3{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    
 }
 
-.cont-expert3 img{
-    display: block;
-    margin: auto;
-    width: 80%;
-    cursor: pointer;
+.group {
+    display: flex;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    border: 10;
 }
 
-.cont-expert4{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
+.w3l-form-group {
+    margin: 20px 0;
 }
-
-.cont-expert4 img{
-    display: block;
-    margin: auto;
-    width: 80%;
-    cursor: pointer;
-}
-
-.cont-expert5{
-    width: 30%;
-    text-align: center;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.cont-expert5 img{
-    display: block;
-    margin: auto;
-    width: 80%;
-    cursor: pointer;
-}
-
 .center{
     display: flex;
     justify-content: center;

@@ -3,55 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>logueo</title>
-    <link rel="stylesheet" href="logueo.css">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bienvenido a tu Espacio</title>
+    
 </head>
 <body>
-  <header class="header1" id="inicio">
-    <img class="menup" src="img/menu.svg" alt="">
-    <img class="volver" src="img/volver.svg" alt="" onclick="location.href='profesor.html'">
 
-    <nav class="menu-navegacion">
-      <a href="index.html">Inicio</a>
-      <a href="estudiantes.html">Estudiantes</a>
-      <a href="profesor.html">Profesor</a>
-      <a href="https://urepublicana.edu.co/pages/biblioteca.php">Biblioteca</a>
-  </nav>
-
-
-<div id= "login" class="container">
-  <div class="info">
-    <h1>Bienvenido Republican@</h1>
-  </div>
-</div>
-<div class="form">
-<div class="thumbnail">
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/>
-</div>
-    <form class="register-form">
-    <input type="text" placeholder="Usuario"/>
-    <input type="password" placeholder="Contraseña"/>
-    </form>
-
-  <form class="login-form">   
-    <input id="username" name="username" required="required" type="text" placeholder="Usuario"/>
-    <input id="password" name="password" required="required" type="password" placeholder="Contraseña"
-    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title=" Este campo debe contener mayusculas - minuscula - un numero y un caracter como * o ." /> 
+    <header class="header1" id="inicio">
+        <img class="menup" src="img/menu.svg" alt="">
+        <img class="volver" src="img/volver.svg" alt="" onclick="location.href='profesor.html'">
     
-   <p class="form button"> 
-    
-      <input type="submit"  onclick="location.href='ingreso_Profesor.html '" value="Ingresar" /> 
+        <nav class="menu-navegacion">
+          <a href="index.html">Inicio</a>
+          <a href="estudiantes.html">Estudiantes</a>
+          <a href="profesor.html">Profesor</a>
+          <a href="https://urepublicana.edu.co/pages/biblioteca.php">Biblioteca</a>
+      </nav>
 
 
-     
-  </p>
-    
-  </form>
+    <section class="contenedor" id="expertos">
+        <h2 class="subtitulo">BIenvenido Republicano</h2>
+    </section>
 
-</div>
+    <div class=" w3l-login-form">
+        <form action="#" method="POST">
+
+            <div class=" w3l-form-group">
+                <label >Usuario:</label>
+                <br> <br>
+                <div class="group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+
+            </div>
+            <div class=" w3l-form-group">
+                <label >Contraseña:</label>
+                <br> <br>
+                <div class="group">
+                    <i class="fas fa-unlock"></i>
+                    <input type="password" class="form-control" placeholder="Password" required="required">
+                </div>
+            </div>
+            <div class="cont_expert">
+      <img src="img/logueos1.svg" onclick="location.href='ingreso_Profesor.html'" alt="">
+      <h3 onclick="location.href='ingreso_Profesor.html'" class="ingresar1">Ingresar</h3>
+    </div>
+        </form>
+    </div>
+
+
 <script src="js/menu.js"></script>
+   
 </body>
 </html>
